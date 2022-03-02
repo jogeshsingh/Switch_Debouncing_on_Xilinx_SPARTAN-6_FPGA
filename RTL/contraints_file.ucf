@@ -1,0 +1,10 @@
+
+//***********clock*********///
+NET "i_clk"      LOC = V10 | IOSTANDARD = LVCMOS33 | PERIOD = 100MHz;
+///*******input button/////
+
+ NET "d_input"           LOC = M18   | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP; 
+ 
+ 
+ ////output led************///
+ NET "out_sig"              LOC = T18  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
